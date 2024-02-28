@@ -20,7 +20,7 @@ function App() {
             <Route path="/categorias" element={<ListaCategorias/>}/>
             <Route path="/categorias/deletar/:id" element={<DeletarCategoria/>}/>
             <Route path="/criarCategoria" element={<FormularioCategoria/>}/>
-            {/* <Route path="/categorias/editar/:id" element={<EditarCategoria/>}/> */}
+            <Route path="/categorias/editar/:id" element={<FormularioCategoria/>}/>
           </Routes>
         </div>
         <Footer />

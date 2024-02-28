@@ -9,7 +9,8 @@ export default {
       colors: {
         'preto-nav': '#000000',
         'branco': '#ffff',
-        'amarelo': "#F7CB46"
+        'amarelo': "#F7CB46",
+        'rosa': "#F196E4"
       },
       backgroundImage: {
         'hero': "url('/hero.png')",
